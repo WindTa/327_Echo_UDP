@@ -1,0 +1,30 @@
+Team 6 - John Ta - Chau Trieu
+Professor Luti
+15 November 2019
+Assignment 3: UDP Communication Instructions
+
+1. Open the command line.
+2. Compile the server.
+	a) cd to the directory that contains the UDPServer.java file.
+	b) Type 'javac UDPServer.java' into the command line and press enter to compile the program.
+3. Compile the client.
+	a) cd to the directory that contains the UDPClient.java file.
+	b) Type 'javac UDPClient.java' into the command line and press enter to compile the program.
+4. Open second command line.
+	a) Use one command line for the client.
+	b) Use the other command line for the server.
+5. Run the server.
+	a) cd to the directory that contains the compiled server file.
+	b) Type 'java UDPServer [port number]' into the command line and press enter to run the program.
+		ie. 'java UDPServer 1111'
+	c) The program should prompt that the server is running, continue to step 6.
+	*Note*: the program can be terminated any time by pressing ctrl+c.
+6. Run the client.
+	a) cd to the directory that contains the compiled client file.
+	b) Type 'java UDPClient [server address] [port number]' into the command line and press enter to run the program.
+		ie. 'java UDPClient localhost 1111'
+	c) The program should prompt for a message to send to the server when the client is running.
+		i) Enter any message.
+		ii) An echo from the server will display.
+		iii) Repeat step c) until you terminate the client.
+	*Note*: the program can be terminated any time by pressing ctrl+c.
